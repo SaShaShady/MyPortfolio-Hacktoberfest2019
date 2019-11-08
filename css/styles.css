@@ -14,7 +14,7 @@
 	}
 
 	100% {
-		background-color: #b5b2ff;
+		background-color: #b5b233;
 	}
 }
 
@@ -87,7 +87,7 @@
 
 	to {
 		opacity: 1;
-		color: #673ab7;
+		color: #673aff;
 	}
 }
 
@@ -145,13 +145,13 @@
 
 	.this-div{
 		max-width: 900px;
-		background: white;
+		background: rgb(255, 255, 255);
 		height: 40px;
 	}
 
 
 	.the-my-story-heading-class{
-		color: purple;
+		color: blue;
 		font-weight: bold;
 	}
 
@@ -198,7 +198,7 @@ h {
 
 #rc {
 	animation-name: slidin;
-	animation-duration: 3s;
+	animation-duration: 2s;
 	width: 0px;
 	height: auto;
 }
@@ -515,6 +515,34 @@ canvas {
  	color: #fdfdfd;
 }
 
+.play2048 {
+	height: 50px;
+	padding: 0 1rem;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 600;
+	text-shadow: 2px 2px 5px black;
+	background-color: #1900f7;
+	color:white;
+}
+.play2048:hover{
+ 	animation: shake 0.5s;
+  	animation-iteration-count: infinite;
+ 	background-color: #69e1ff;
+ 	color: #fdfdfd;
+}
+
+#games {
+	margin-top: 20px;
+	color: #047009;
+}
+
 /* Shake effect */
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -696,7 +724,10 @@ header img:hover {
 
 .circle-profile-img {
 	max-height: 15vh;
+	width: 100px;
+	height: 70px;
 }
+
 
 @media screen and (max-width: 1000px) {
 	header {
@@ -1289,6 +1320,31 @@ video{
 /********************************************************/
 
 
+
+
+/*** WEDDING PHOTOGRAPHY ***/
+.underline--emoji {
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
+	background-position: 0 1.06em;
+	background-size: 15px 9px;
+	color: #e8665f;
+}
+
+#wedding-photos{
+	color: #e22cd3;
+}
+#wedding-photos:hover{
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
+	background-position: 0 1.06em;
+	background-size: 15px 9px;
+	color: #00ff00;
+}
+#weddingPhotos{
+	text-align: left;
+}
+
+
+/********************************************************/
 
 /*** BUTTON GO UP ***/
 #goTopBtn {
